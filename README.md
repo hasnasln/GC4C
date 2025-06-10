@@ -1,7 +1,6 @@
 # S-Malloc: Güvenli Bellek Yönetimi Kütüphanesi
 
 ![C](https://img.shields.io/badge/Language-C-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)
 
 **S-Malloc**, standart `malloc` ve `free` işlevlerine güvenli bir alternatif sunan, C programlama dili için geliştirilmiş özel bir bellek yönetimi kütüphanesidir. Bu kütüphane, ayrılan tüm bellek bloklarını çift yönlü bir bağlı liste üzerinde takip ederek, bellek sızıntılarını önlemeyi ve tüm belleği tek bir komutla güvenli bir şekilde serbest bırakmayı amaçlar.
